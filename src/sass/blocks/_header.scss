@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    width: 100%;
+    min-height: 53px;
+    background-color: #272727;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logo {
+            display: block;
+            height: 100%;
+            width: 170px;
+            text-align: center;
+        }
+        .menu {
+            margin-bottom: 0;
+            padding: 0;
+            &__item {
+                list-style-type: none;
+                a {
+                    display: block;
+                    line-height: 53px;
+                    width: 350px;
+                    color: #ffffff;
+                    font-family: Circe;
+                    font-size: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                    text-decoration: none;
+                    &:hover {
+                        background-image: linear-gradient(to left, #656fb5 0%, #666ab3 50%, #5ca3c7 100%);
+                    }
+                }
+            }
+        }
+    }
+}

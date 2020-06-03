@@ -1,0 +1,52 @@
+.main {
+    width: 100%;
+    min-height: 714px;
+    background: url('../../img/main.jpg') center (center/cover) no-repeat;
+    padding: 237px 0 268px 0;
+    &__title {
+        color: #ffffff;
+        font-family: "Youth Fury PERSONAL USE";
+        font-size: 72px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 25px;
+        color: #ffffff;
+        font-family: "Circe";
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        font-style: italic;
+    }
+    &__descr {
+        margin-top: 22px;
+        color: #ffffff;
+        font-family: "Circe";
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        font-style: italic;
+    }
+    &__btn {
+        display: block;
+        margin: 67px auto;
+        width: 176px;
+        height: 43px;
+        border: none;
+        border-radius: 22px;
+        background-color: #ffffff;
+        color: #2c93db;
+        font-family: Circe;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        &:hover {
+            border: 2px;
+            border-style: solid;
+            border-color: linear-gradient(to left, #656fb5 0%, #666ab3 50%, #5ca3c7 100%);
+        }
+    }
+}
