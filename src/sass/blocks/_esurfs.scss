@@ -1,0 +1,50 @@
+.esurfs {
+    margin-top: 100px;
+    &__title {
+        margin: 0 auto;
+        color: #666666;
+        font-family: "Roboto Condensed";
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__top {
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-top: 50px;
+            width: 670px;
+            height: 450px;
+        }
+        &_promo {
+            color: #666666;
+            font-family: "PT Sans";
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    &__middle {
+        min-height: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: calc(670px - 10%);
+            height: calc(450px - 10%);
+        }
+        &_promo {
+            display: inline-block;
+            height: 250px;
+            width: 500px;
+            color: #666666;
+            font-family: Circe;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}
