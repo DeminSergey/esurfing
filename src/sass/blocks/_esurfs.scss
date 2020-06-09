@@ -1,5 +1,5 @@
 .esurfs {
-    margin-top: 100px;
+    padding: 100px 0 0 0;
     &__title {
         margin: 0 auto;
         color: #666666;
@@ -20,9 +20,12 @@
             height: 450px;
         }
         &_promo {
+            display: inline-block;
+            width: 500px;
+            height: 250px;
             color: #666666;
-            font-family: "PT Sans";
-            font-size: 16px;
+            font-family: 'Circe';
+            font-size: 18px;
             font-weight: 400;
             text-align: center;
         }
@@ -41,10 +44,58 @@
             height: 250px;
             width: 500px;
             color: #666666;
-            font-family: Circe;
+            font-family: 'Circe';
             font-size: 18px;
             font-weight: 400;
             text-align: center;
         }
     }
+    &__end {
+        min-height: 500px;
+        margin-top: 100px;
+        &_promo {
+            margin-top: 92px;
+            color: #666666;
+            font-family: 'Circe';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+        }
+    }&__advantages {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul {
+            display: block;
+            list-style: none;
+            width: 670px;
+            height: 450px;
+            .esurfs__listitem {
+                display: inline-flex;
+                max-width: 600px;
+                height: 75px;
+                img {
+                    width: 54px;
+                    height: 54px;
+                    opacity: 0.8;
+                }
+                .listitem__descr {
+                    margin-left: 20px;
+                    color: #666666;
+                    font-family: 'Circe';
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+            }
+        }
+        .esurfs__end_bg {
+            margin-top: -120px;
+            width: calc(783px - 10%);
+            height: calc(408px - 10%);
+        }
+    }
+    
 }
