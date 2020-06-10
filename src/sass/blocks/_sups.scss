@@ -1,5 +1,70 @@
 .sups {
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
     &__promo {
+        &_top {
+            padding: 100px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 420px;
+                height: 420px;
+            }
+            .text {
+                padding: 70px;
+                display: inline;
+                color: #666666;
+                font-family: 'Circe';
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+        &_middle {
+            padding: 50px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                transform: scale(1.1, 1.1);
+            }
+            .text {
+                padding: 30px 80px 30px 0;
+                display: inline;
+                color: #666666;
+                font-family: 'Circe';
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+            }
+        }
+    }
+    &__instruction {
+        padding: 100px 0 0 0;
+        &_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 250px;
+            img {
+                transform: scale(0.5);
+            }
+            .descr {
+                color: #666666;
+                font-family: 'Circe';
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+    .title {
+        margin: 0 auto;
+        color: #666666;
+        font-family: "Roboto Condensed";
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
     }
 }
