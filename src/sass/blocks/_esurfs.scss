@@ -1,6 +1,6 @@
 .esurfs {
     padding: 100px 0 0 0;
-    .title {
+    .esurfs-title {
         margin: 0 auto;
         color: #666666;
         font-family: "Roboto Condensed";
@@ -9,7 +9,7 @@
         text-transform: uppercase;
         text-align: center;
     }
-    &__top {
+    .esurfs-top {
         min-height: 450px;
         display: flex;
         justify-content: center;
@@ -19,7 +19,7 @@
             width: 670px;
             height: 450px;
         }
-        &_promo {
+        .esurfs-top-promo {
             display: inline-block;
             width: 500px;
             height: 250px;
@@ -30,7 +30,7 @@
             text-align: center;
         }
     }
-    &__middle {
+    .esurfs-middle {
         min-height: 450px;
         display: flex;
         justify-content: space-between;
@@ -39,7 +39,7 @@
             width: calc(670px - 10%);
             height: calc(450px - 10%);
         }
-        &_promo {
+        .esurfs-middle-promo {
             display: inline-block;
             height: 250px;
             width: 500px;
@@ -50,10 +50,10 @@
             text-align: center;
         }
     }
-    &__end {
+    .esurfs-end {
         min-height: 500px;
         margin-top: 50px;
-        &_promo {
+        .esurfs-end-promo {
             margin-top: 92px;
             color: #666666;
             font-family: 'Circe';
@@ -62,7 +62,8 @@
             line-height: 30px;
             text-align: center;
         }
-    }&__advantages {
+    }
+    .esurfs-advantages {
         margin-top: 50px;
         display: flex;
         justify-content: center;
@@ -72,7 +73,7 @@
             list-style: none;
             width: 670px;
             height: 380px;
-            .esurfs__listitem {
+            .esurfs-listitem {
                 display: inline-flex;
                 max-width: 600px;
                 height: 75px;
@@ -81,7 +82,7 @@
                     height: 54px;
                     opacity: 0.8;
                 }
-                .listitem__descr {
+                .listitem-descr {
                     margin-left: 20px;
                     color: #666666;
                     font-family: 'Circe';
@@ -91,7 +92,7 @@
                 }
             }
         }
-        .esurfs__end_bg {
+        .esurfs-end-bg {
             margin-top: -120px;
             width: calc(783px - 10%);
             height: calc(408px - 10%);

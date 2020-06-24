@@ -1,0 +1,31 @@
+.wetsuits {
+    padding: 100px 0 0 0;
+    .wetsuits-title {
+        color: #666666;
+        font-family: "Roboto Condensed";
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .wetsuits-promo {
+        padding: 50px 0 0 0;
+        img {
+            display: inline-block;
+            max-width: 50%;
+            height: 450px;
+        }
+        .wetsuits-descr {
+            display: inline-block;
+            vertical-align: middle;
+            width: 50%;
+            height: 450px;
+            color: #666666;
+            font-family: 'Circe';
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    
+}

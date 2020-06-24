@@ -1,5 +1,8 @@
 @import 'lib/bootstrap-reboot.min';
+@import 'lib/slick';
 @import 'lib/fonts';
+@import 'base/animations';
+@import 'base/variables';
 
 .container {
     width: 1170px;
@@ -10,3 +13,4 @@
 @import 'blocks/main';
 @import 'blocks/esurfs';
 @import 'blocks/sups';
+@import 'blocks/wetsuits';

@@ -1,7 +1,7 @@
 .sups {
     padding: 70px 0 0 0;
-    &__promo {
-        &_top {
+    .sups-promo {
+        .sups-promo-top {
             padding: 100px 0 0 0;
             display: flex;
             justify-content: space-between;
@@ -11,7 +11,7 @@
                 height: 420px;
             }
             .text {
-                padding: 70px;
+                padding: 70px 0 70px 140px;
                 display: inline;
                 color: #666666;
                 font-family: 'Circe';
@@ -20,7 +20,7 @@
                 text-align: center;
             }
         }
-        &_middle {
+        .sups-promo-middle {
             padding: 50px 0 0 0;
             display: flex;
             justify-content: space-between;
@@ -39,9 +39,9 @@
             }
         }
     }
-    &__instruction {
+    .sups-instruction {
         padding: 100px 0 0 0;
-        &_item {
+        .sups-instruction-item {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -58,8 +58,7 @@
             }
         }
     }
-    .title {
-        margin: 0 auto;
+    .sups-title {
         color: #666666;
         font-family: "Roboto Condensed";
         font-size: 48px;
