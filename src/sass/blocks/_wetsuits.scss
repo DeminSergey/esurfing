@@ -1,5 +1,5 @@
 .wetsuits {
-    padding: 100px 0 0 0;
+    padding: 70px 0 0 0;
     .wetsuits-title {
         color: #666666;
         font-family: "Roboto Condensed";
@@ -9,7 +9,7 @@
         text-align: center;
     }
     .wetsuits-promo {
-        padding: 50px 0 0 0;
+        margin-top: 50px;
         img {
             display: inline-block;
             max-width: 50%;
@@ -27,5 +27,28 @@
             text-align: center;
         }
     }
-    
+    .wetsuits-features {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .wetsuits-features-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 250px;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            .wetsuits-features-descr {
+                color: #666666;
+                font-family: 'Circe';
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
 }

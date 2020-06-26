@@ -44,6 +44,11 @@
         transition: all 0.8s ease 0s;
         background-color: #2c93db;
         overflow: hidden;
+        &:hover {
+            border-radius: 30px;
+            transition: all 0.8s ease 0.2s;
+            box-shadow: 0 0 40px rgba(44, 147, 219, 0.6);
+        }
         &:hover .main-btn-waves {
             top: -50px;
         }
