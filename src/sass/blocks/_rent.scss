@@ -1,0 +1,30 @@
+.rent {
+    padding: 70px 0 0 0;
+    .rent-title {
+        color: #666666;
+        font-family: "Roboto Condensed";
+        font-size: 48px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .rent-esurfs {
+        padding: 100px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 50%;
+        }
+        .rent-esurfs-descr {
+            color: #666666;
+            font-family: 'Circe';
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -42,8 +42,15 @@
             img {
                 width: 150px;
                 height: 150px;
+                border-radius: 5px;
+                &:hover {
+                    width: 300px;
+                    height: 300px;
+                }
             }
             .wetsuits-features-descr {
+                margin-left: 20px;
+                margin-right: 20px;
                 color: #666666;
                 font-family: 'Circe';
                 font-size: 18px;
